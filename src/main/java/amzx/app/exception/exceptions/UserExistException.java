@@ -1,0 +1,9 @@
+package amzx.app.exception.exceptions;
+
+public class UserExistException extends RuntimeException
+{
+  public UserExistException(String message)
+  {
+    super(message);
+  }
+}
